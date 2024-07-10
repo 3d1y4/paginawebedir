@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #454945;
+}
+.modificador{
+    width: 100%;
+    margin: 0 auto;
+}
+.cabeza{
+    width: 100%;
+    background:#004400 ;
+}
+/*
+.menu{
+    width: 100%;
+    background: #116611;
+}*/
+.contenido{
+    width: 100%;
+    /*background:#2d882d ; */
+    background: #65aa65;
+    margin-bottom: 5px; /*margen hacia abajo*/
+
+}
+.noticia{
+    width: 100%;
+}
+.novedad{
+    width: 100%;
+    background: #288328;
+    display: flex;
+    flex-direction: column;
+}
+
+.pie{
+    width: 100%;
+    background:#245e24;
+    padding: 1rem 0;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 1024px) {
+    .modificador{
+        width: 1000px;
+    }
+    .noticia{
+        width: 70%;
+    }
+    .novedad{
+        width: 30%;
+    }
+    
+}
+
+/*estructura
+.cabeza img{
+    width: 25%;
+   margin: 0 auto;
+}*/
+/*
+.menu ul li{
+    display: inline-block;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.menu ul li a{
+    color: bisque;
+    text-decoration: none;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
+.menu a.active, .menu a:hover{
+    background: #15c0b9;
+    transition: 5ms;
+} */
+/*sider bar*/
+.novedad ul,h2{
+    text-align: center;
+    color: #73db2e;
+    margin-top: 25px;
+    
+} 
+.novedad ul li{
+    
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 20px;
+    margin: 10px 2px;
+    border: #99ebe8 1px solid;
+    padding:7px 0px;
+}
+.novedad ul li a{
+    text-decoration: none;
+    color: beige;
+  
+}
+.novedad li.active, .novedad li:hover{
+    background: #00b3ad;
+}
+/*noticia */
+.noticia{
+    margin-top: 5px ;
+}
+.noticia h1,h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    color: rgb(16, 39, 66);
+}
+.noticia p{
+    line-height: 30px;
+    text-align: justify;
+    color: rgb(53, 80, 88);
+    font-style: oblique;
+    margin: 0 10px;
+}
+
+#img_noti{
+    width: 80%;
+    height: 20rem;
+    margin-left: 50px;
+}
+
+/*pie*/
+.pie ul li{
+    display: inline-block;
+}
+.pie ul li a img{
+    width: 35px;
+    height: 40px;
+}
+.pie p{
+    margin: 0 auto;
+    font-family: 'Courier New';
+    color: aliceblue;
+    font-size: small;
+}

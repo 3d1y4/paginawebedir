@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .producto {
+    width: 200px; /* Ajusta el ancho del cuadro */ /* Centra el cuadro en la página */
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #3b3434;
+    margin-bottom: 5px;
+    display:inline-block;
+    flex-wrap: wrap;
+}
+
+.producto img {
+    width: 200px; /* La imagen ocupa todo el ancho del cuadro */
+    height: 200px; /* Mantiene la proporción de la imagen */
+    margin-bottom: 5px;
+}
+
+.informacion-producto {
+    text-align: center; /* Centra el texto dentro del cuadro */
+}
+.informacion-producto h3{
+    color: rgb(13, 17, 41);
+}
+
+.precio {
+    font-weight: bold;
+    color: #fcfafa;
+}
+
+.oferta {
+    color: #cb77db; /* Color de la oferta */
+}
+
+.calificacion {
+    margin-top: 5px;
+}
+
+
+</style>
+<body>
+    <section class="producto">
+        <img src="img/azalea.jpeg" alt="Nombre del producto">
+        <div class="informacion-producto">
+            <h3>Azalea</h3>
+            <p class="precio">Para interior</p>
+            <p class="oferta">Para cultivar esta planta, especialmente en exterior, debes seleccionar cuidadosamente su ubicación. Como ya sabes, zonas de semisombra o sombra son las más adecuadas.</p>
+        </div>
+    </section>
+    <section class="producto">
+        <img src="img/boca de dragon.jpeg" alt="Nombre del producto">
+        <div class="informacion-producto">
+            <h3>Boca de Dragon</h3>
+            <p class="precio">para interiores</p>
+            <p class="oferta">Esta planta con flor es nativa del Mediterráneo y se suele dar en países como Marruecos, Portugal, sur de Francia y hasta el Este de Turquía</p>
+        </div>
+    </section>
+    <section class="producto">
+        <img src="img/agapanto.jpeg" alt="Nombre del producto">
+        <div class="informacion-producto">
+        <h3>Agapanto</h3>
+        <p class="precio">Para interior</p>
+        <p class="oferta">Nació en el más profundo sur, Sudáfrica y también es conocida como Lirio africano, su nombre, Agapanto, le llega del griego y significa planta del amor </p> 
+        </div>
+    </section>
+</body>
+</html>
